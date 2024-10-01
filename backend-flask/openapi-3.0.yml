@@ -152,13 +152,13 @@ paths:
     get:
       description: 'Return a feed of activity for all the people that I follow.'
       tags:
-        -activities
+        - activities
       parameters: []
       responses:
         '200':
-          description: Returns an array of activities.
+          description: "Returns an array of activities"
           content:
-          application/json:
+            application/json:
             schema:
               type: array
               items:
